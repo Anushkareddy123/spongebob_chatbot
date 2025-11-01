@@ -8,20 +8,6 @@ It connects to the OpenAI-compatible Chat Completions API** hosted at **https://
 
 ---
 
-##  Learning Objectives
-- Use an OpenAI-compatible `/api/chat/completions` endpoint.
-- Keep and send **multi-turn chat history**.
-- Load secrets securely using a **.env** file and environment variables.
-- Package the project in a **GitHub repo** with clear documentation.
-
----
-
-## Requirements
-
-Before you begin:
-- Python **3.9+** (recommended for macOS or Windows)
-- Internet connection
-- A valid **OU email** to create an API key at [https://ai.sooners.us](https://ai.sooners.us)
 
 ###  Install Required Libraries
 ```bash
