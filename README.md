@@ -24,15 +24,11 @@ Create a hidden file at:
 ~/.soonerai.env
 ```
 
-Then add the following lines (replace with your actual key):
-
 ```
 SOONERAI_API_KEY=your_key_here
 SOONERAI_BASE_URL=https://ai.sooners.us
 SOONERAI_MODEL=gemma3:4b
 ```
-
->  **Do not** commit this `.env` file to GitHub.
 
 ---
 
@@ -72,7 +68,7 @@ history = [
 ]
 ```
 
-Each user message and reply is appended before the next API call.
+
 
 ---
 
