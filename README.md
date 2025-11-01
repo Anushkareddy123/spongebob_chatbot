@@ -1,5 +1,5 @@
 
-README.md —
+README.md 
 
 SpongeBob CLI Chatbot using OpenAI-Compatible API
 
@@ -144,73 +144,7 @@ Come visit me sometime in my pineapple! ✨ Until then, keep swimming! 🌊 Bye-
 
 ---
 
-##  Project Structure
 
-```
-spongebob_chatbot/
-│
-├── spongebob_cli.py      # Main chatbot code (with chat history)
-├── requirements.txt      # Python dependencies
-├── README.md             # Setup & instructions
-├── .gitignore            # Excludes env files, caches, etc.
-└── venv/                 # Optional virtual environment folder
-```
 
----
 
-##  .gitignore Example
 
-Include the following lines so sensitive data isn’t pushed:
-
-```
-__pycache__/
-*.env
-.env
-venv/
-.sooneai.env
-```
-
----
-
-## Troubleshooting
-
-| Problem                    | Likely Fix                                                                                  |
-| -------------------------- | ------------------------------------------------------------------------------------------- |
-| **401 / 403 Error**        | Check your `SOONERAI_API_KEY` — it might be expired or missing.                             |
-| **404 / Connection Error** | Confirm `SOONERAI_BASE_URL=https://ai.sooners.us` and correct `/api/chat/completions` path. |
-| **Long Context Error**     | Trim chat history to last 6–10 turns.                                                       |
-
----
-
-##  Grading Rubric Alignment
-
-| Criteria      | Points | Implementation                                        |
-| ------------- | ------ | ----------------------------------------------------- |
-| Functionality | 6      | Calls ai.sooners.us with gemma3:4b and SpongeBob tone |
-| History       | 6      | Maintains multi-turn chat memory                      |
-| Documentation | 4      | Clear README with reproducible setup and example      |
-| Security      | 2      | Uses `.env` file; not committed                       |
-| Code Quality  | 2      | Clean, structured, commented                          |
-
----
-
-##  Author
-
-**Anushka Reddy Annareddy**
-C S-5903-001 — Fall 2025
-University of Oklahoma
-
-```
-
----
-
-**This README matches your Canvas prompt line-for-line** — it covers:
-- Setup & dependencies  
-- `.env` creation  
-- How to run  
-- Example chat transcript  
-- Explanation of chat history  
-- Security + Rubric mapping  
-
-Would you like me to make a **ready-to-upload GitHub version** next (with commands to initialize and push your repo)?
-```
